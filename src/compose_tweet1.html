@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+    <link rel="stylesheet" href="../dist/output.css">
+</head>
+<body class="bg-neutral-950 font-inter">
+    
+    <header class="flex mt-11  px-4">
+        <!-- Cancel and post button starts -->
+        <section class="flex py-3 w-full justify-between items-center">
+            <img src="../public/images/cancel.svg" alt="" class="justify-start w-9 h-9 rounded-full justify-self-start">
+            <button class="bg-Twitter-Blue-Default hover:bg-Twitter-Blue-Hover py-2 px-6 rounded-full opacity-50">
+                <p class="text-neutral-50 font-inter font-bold ">Post</p>
+            </button>
+        </section>
+        <!-- Cancel and post button ends -->
+    </header>
+
+    <main class="flex flex-col  px-4">
+        <!-- Tweet input box starts -->
+        <section class="">
+            <div class="flex gap-3 h-9 w-full">
+                <div class="align-middle">
+                    <img src="../public/images/profile_pic.png" alt="profile_pic" class="h-9 w-9 rounded-full p-0">
+                </div>
+                <div class="w-full">
+                    <input type="text" name="thought" id="thought" class="font-inter text-xl border h-9 w-full bg-transparent border-none text-neutral-50 focus:outline-none  focus:ring-neutral-950 caret-Twitter-Blue-Default" placeholder="What's happening?!">
+                </div>
+            </div>
+        </section>
+        <!-- Tweet input box ends -->
+    </main>
+
+    <footer class="flex fixed bottom-0 w-full border-t border-neutral-800">
+        <div class="px-4 py-3">
+            <p class="text-neutral-500">
+                0/280
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
