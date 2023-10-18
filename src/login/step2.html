@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Create Account</title>
-    <link rel="stylesheet" href="../dist/output.css">
+    <link rel="stylesheet" href="../../dist/output.css">
 </head>
 <body class="bg-neutral-950 font-inter">
     
@@ -13,7 +13,7 @@
         <div class="flex flex-col ">
             <!-- Step counter starts -->
             <div class="flex py-3 gap-5 items-center mt-11">
-                <img src="../public/images/cancel.svg" alt="">
+                <img src="../../public/images/cancel.svg" alt="">
                 
                 <p class="font-bold text-neutral-50">
                     Step 2 of 4
@@ -36,7 +36,7 @@
                 <fieldset class="flex border border-neutral-500 px-3 py-4 rounded bg-transparent text-neutral-50 focus-within:border-Twitter-Blue-Default justify-between">
                     <input type="text" name="Name" id="name" placeholder="Name" class="peer bg-transparent border-none placeholder-slate-400 focus:outline-none  focus:ring-neutral-950 p-0  caret-transparent w-full">
                     <legend class="text-neutral-500 peer-focus:text-Twitter-Blue-Default px-3" >Name</legend>
-                    <img src="../public/images/correct.svg" alt="" class="w-6 h-6 hidden peer-focus:block">
+                    <img src="../../public/images/correct.svg" alt="" class="w-6 h-6 hidden peer-focus:block">
                 </fieldset>
             </div>
             <!-- Name input ends -->
@@ -46,7 +46,7 @@
                 <fieldset class="flex border border-neutral-500 px-3 py-4 rounded bg-transparent text-neutral-50 focus-within:border-Twitter-Blue-Default justify-between">
                     <input type="email" name="Email" id="email" placeholder="Email" class="peer bg-transparent border-none placeholder-slate-400 focus:outline-none  focus:ring-neutral-950 p-0  caret-transparent w-full">
                     <legend class="text-neutral-500 peer-focus:text-Twitter-Blue-Default px-3" >Email</legend>
-                    <img src="../public/images/correct.svg" alt="" class="w-6 h-6 hidden peer-focus:block">
+                    <img src="../../public/images/correct.svg" alt="" class="w-6 h-6 hidden peer-focus:block">
                 </fieldset>
             </div>
             <!-- Email input ends -->
@@ -56,7 +56,7 @@
                 <fieldset class="flex border border-neutral-500 px-3 py-4 rounded bg-transparent text-neutral-50 focus-within:border-Twitter-Blue-Default justify-between">
                     <input type="text" name="birthdate" id="birthdate" placeholder="Birth Date" class="peer bg-transparent border-none placeholder-slate-400 focus:outline-none  focus:ring-neutral-950 p-0  caret-transparent w-full">
                     <legend class="text-neutral-500 peer-focus:text-Twitter-Blue-Default px-3" >Date of birth</legend>
-                    <img src="../public/images/correct.svg" alt="" class="w-6 h-6 hidden peer-focus:block">
+                    <img src="../../public/images/correct.svg" alt="" class="w-6 h-6 hidden peer-focus:block">
                 </fieldset>
             </div>
             <!-- Date of Birth ends -->
@@ -64,10 +64,12 @@
         </form>
 
         <!-- Create account button starts -->
-        <div class="flex justify-center justify-self-end mt-auto">
-            <button class="bg-Twitter-Blue-Default hover:bg-Twitter-Blue-Hover p-5 rounded-full w-full">
-                <p class="text-neutral-50 font-inter font-bold h-5">Sign up</p>
-            </button>
+        <div class="flex justify-center justify-self-end mt-auto w-full">
+            <a href="./step3.html" class="w-full">
+                <button class="bg-Twitter-Blue-Default hover:bg-Twitter-Blue-Hover p-5 rounded-full w-full">
+                    <p class="text-neutral-50 font-inter font-bold h-5">Sign up</p>
+                </button>
+            </a>
         </div>
         <!-- Create account button ends -->
     </main>

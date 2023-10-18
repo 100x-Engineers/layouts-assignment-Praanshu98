@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>User Profile</title>
-    <link rel="stylesheet" href="../dist/output.css">
+    <link rel="stylesheet" href="../../dist/output.css">
 </head>
 <body class="bg-neutral-950 font-inter px-4 pb-4">
     
@@ -13,34 +13,38 @@
         <!-- Back button, Edit profile -->
         <section class="flex py-3 w-full justify-between items-center">
             <div class="flex gap-5 items-center">
-                <img src="../public/images/arrow-left.svg" alt="" class="justify-start h-6 rounded-full justify-self-start">
+                <a href="./user_profile.html" class="">
+                    <img src="../../public/images/arrow-left.svg" alt="" class="justify-start h-6 rounded-full justify-self-start">
+                </a>
                 <p class="text-neutral-50 font-bold">
                     Edit profile
                 </p>
             </div>
 
-            <button class="bg-Twitter-Blue-Default hover:bg-Twitter-Blue-Hover py-2 px-6 rounded-full opacity-50">
-                <p class="text-neutral-50 font-inter font-bold ">Post</p>
-            </button>
+            <a href="./user_profile.html">    
+                <button class="bg-neutral-50 py-2 px-6 rounded-full">
+                    <p class="text-Neutral-1000 font-inter font-bold ">Save</p>
+                </button>
+            </a>
         </section>
         <!-- Back button, Edit profile ends-->
         
         <!-- Background / profile-pic starts -->
         <section class="flex flex-col w-full relative">
             <div class="relative pb-6">
-                <img src="../public/images/background_image.png" alt="" class="bg-cover h-50">
+                <img src="../../public/images/background_image.png" alt="" class="bg-cover h-50">
                 <div class="flex top-2/4 right-2/4 absolute gap-2">
                     <div class="flex justify-center items-center bg-black bg-opacity-60 rounded-full w-6 h-6">
-                        <img src="../public/images/material-symbols-add-a-photo-outline.svg" alt="" class="w-5 h-5">
+                        <img src="../../public/images/material-symbols-add-a-photo-outline.svg" alt="" class="w-5 h-5">
                     </div>
                     <div class="bg-black bg-opacity-60 rounded-full flex justify-center items-center h-6 w-6">
-                        <img src="../public/images/cancel.svg" alt=""  class="w-5 h-5">
+                        <img src="../../public/images/cancel.svg" alt=""  class="w-5 h-5">
                     </div>
                 </div>
             </div>
             <div class="absolute left-0 bottom-0">
                 <div class="relative">
-                    <img src="../public/images/profile_pic.png" alt="profile_pic" srcset="" class="h-17 w-17 rounded-full border-4 border-Neutral-1000">
+                    <img src="../../public/images/profile_pic.png" alt="profile_pic" srcset="" class="h-17 w-17 rounded-full border-4 border-Neutral-1000">
                 </div>
             </div>
         </section>
@@ -53,25 +57,25 @@
             <fieldset class="flex border border-neutral-500 px-3 py-4 rounded bg-transparent text-neutral-50 focus-within:border-Twitter-Blue-Default justify-between">
                 <input type="text" name="name" id="name" placeholder="Name" class="peer bg-transparent border-none placeholder-slate-400 focus:outline-none  focus:ring-neutral-950 p-0  caret-transparent w-full">
                 <legend class="text-neutral-500 peer-focus:text-Twitter-Blue-Default px-3" >Name</legend>
-                <img src="../public/images/correct.svg" alt="" class="w-6 h-6 hidden peer-focus:block">
+                <img src="../../public/images/correct.svg" alt="" class="w-6 h-6 hidden peer-focus:block">
             </fieldset>
 
             <fieldset class="flex border border-neutral-500 px-3 py-4 rounded bg-transparent text-neutral-50 focus-within:border-Twitter-Blue-Default justify-between">
                 <input type="text" name="bio" id="bio" placeholder="Bio" class="peer bg-transparent border-none placeholder-slate-400 focus:outline-none  focus:ring-neutral-950 p-0  caret-transparent w-full">
                 <legend class="text-neutral-500 peer-focus:text-Twitter-Blue-Default px-3" >Bio</legend>
-                <img src="../public/images/correct.svg" alt="" class="w-6 h-6 hidden peer-focus:block">
+                <img src="../../public/images/correct.svg" alt="" class="w-6 h-6 hidden peer-focus:block">
             </fieldset>
 
             <fieldset class="flex border border-neutral-500 px-3 py-4 rounded bg-transparent text-neutral-50 focus-within:border-Twitter-Blue-Default justify-between">
                 <input type="text" name="location" id="location" placeholder="Location" class="peer bg-transparent border-none placeholder-slate-400 focus:outline-none  focus:ring-neutral-950 p-0  caret-transparent w-full">
                 <legend class="text-neutral-500 peer-focus:text-Twitter-Blue-Default px-3" >Location</legend>
-                <img src="../public/images/correct.svg" alt="" class="w-6 h-6 hidden peer-focus:block">
+                <img src="../../public/images/correct.svg" alt="" class="w-6 h-6 hidden peer-focus:block">
             </fieldset>
 
             <fieldset class="flex border border-neutral-500 px-3 py-4 rounded bg-transparent text-neutral-50 focus-within:border-Twitter-Blue-Default justify-between">
                 <input type="text" name="website" id="website" placeholder="Website" class="peer bg-transparent border-none placeholder-slate-400 focus:outline-none  focus:ring-neutral-950 p-0  caret-transparent w-full">
                 <legend class="text-neutral-500 peer-focus:text-Twitter-Blue-Default px-3" >Website</legend>
-                <img src="../public/images/correct.svg" alt="" class="w-6 h-6 hidden peer-focus:block">
+                <img src="../../public/images/correct.svg" alt="" class="w-6 h-6 hidden peer-focus:block">
             </fieldset>
 
         </form>
